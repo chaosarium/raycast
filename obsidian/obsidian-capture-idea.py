@@ -22,7 +22,7 @@ OBSIDIAN_VAULT_PATH = "~/Library/Mobile Documents/iCloud~md~obsidian/Documents/Z
 # file to manipulate within vault
 FILE_PATH = "000 System/080 Inboxes/Ideas Inbox.md"
 # format appended text
-insert_text = f"""
+insertion = f"""
 
 %%captured {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}%%
 {query}
@@ -33,7 +33,7 @@ abs_path = os.path.expanduser(os.path.join(OBSIDIAN_VAULT_PATH, FILE_PATH))
 
 try: 
   file = open(abs_path, "a")
-  file.write(insert_text)
+  file.write(insertion)
   file.close()
   print('success')
   sys.exit(0)
