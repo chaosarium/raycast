@@ -8,7 +8,7 @@
 # Optional parameters:
 # @raycast.packageName obsidian-capture-idea
 # @raycast.icon ./assets/obsidian.png
-# @raycast.argument1 { "type": "text", "placeholder": "" }
+# @raycast.argument1 { "type": "text", "placeholder": "entry" }
 
 # Documentation:
 # @raycast.author chaosarium
