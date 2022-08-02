@@ -3,7 +3,7 @@
 # Required parameters: text
 # @raycast.schemaVersion 1
 # @raycast.title Obsidian Capture Idea
-# @raycast.mode compact
+# @raycast.mode silent
 
 # Optional parameters:
 # @raycast.packageName obsidian-capture-idea
