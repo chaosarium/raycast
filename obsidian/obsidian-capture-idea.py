@@ -20,7 +20,7 @@ query = sys.argv[1]
 # set vault path
 OBSIDIAN_VAULT_PATH = "~/Library/Mobile Documents/iCloud~md~obsidian/Documents/Zettelkasten"
 # file to manipulate within vault
-FILE_PATH = "000 System/Ideas Inbox.md"
+FILE_PATH = "000 System/080 Inboxes/Ideas Inbox.md"
 # format appended text
 insert_text = f"""
 
