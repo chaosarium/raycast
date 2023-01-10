@@ -4,7 +4,7 @@
 
 # Required parameters: text
 # @raycast.schemaVersion 1
-# @raycast.title Obsidian Due Today
+# @raycast.title Obsidian Due Tomorrow
 # @raycast.mode silent
 
 # Optional parameters:
